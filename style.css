@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-one, .line-two {
+    display: flex;
+}
+
+.red { background-color: rgb(148, 76, 76); }
+.yellow { background-color: rgb(210, 210, 124); }
+.green { background-color: rgb(115, 214, 115); }
+.purple { background-color: rgb(194, 107, 194); }
+
+/* Flash effect */
+.flash {
+    background-color: white !important;
+}
