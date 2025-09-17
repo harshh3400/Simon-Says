@@ -1,8 +1,8 @@
-🎮 Simon Says Game
+🎮 Simon Says Game :-
 A simple and fun memory game built using HTML, CSS, and JavaScript.
 The goal is to repeat the sequence of colors shown by Simon. Each level adds a new step to the sequence, making the game more challenging.
 
-
+---------------------------------------------------------------------------------------------------------------------------------------
 📂 Project Structure
 📁 Simon-Says-Game
 │
@@ -38,7 +38,7 @@ The goal is to repeat the sequence of colors shown by Simon. Each level adds a n
 
 
 🔧 Setup Instructions
-📥 Clone the repository: git clone https://github.com/yourusername/Simon-Says-Game.git
+📥 Clone the repository: git clone https://github.com/harshh3400/Simon-Says-Game.git
 📂 Navigate into the folder: cd Simon-Says-Game
 🌐 Open index.html in any browser
 
