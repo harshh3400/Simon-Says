@@ -45,7 +45,11 @@ function btnFlash(btn){
         btn.classList.remove("flash");
     }, 300);
 }
-
+// Add event listeners to all buttons
+let allBtns = document.querySelectorAll(".btn");
+for(let btn of allBtns){
+    btn.addEventListener("click", btnPress);
+}
 // When user clicks a button
 function btnPress(){
     let btn = this;
@@ -87,8 +91,4 @@ function resetGame(){
     level = 0;
 }
 
-// Add event listeners to all buttons
-let allBtns = document.querySelectorAll(".btn");
-for(let btn of allBtns){
-    btn.addEventListener("click", btnPress);
-}
+
